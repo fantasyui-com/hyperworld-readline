@@ -2,7 +2,7 @@
   "name": "hyperworld-readline",
   "version": "1.1.0",
   "description": "Parse a line of text in a unix-like way and convert it into an object.",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "./test.mjs"
   },
