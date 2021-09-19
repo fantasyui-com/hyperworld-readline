@@ -4,14 +4,15 @@
   "description": "Parse a line of text in a unix-like way and convert it into an object.",
   "main": "index.mjs",
   "scripts": {
-    "test": "./test.mjs"
+    "test": "./test.mjs",
+    "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fantasyui-com/hyperworld-readline.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "fantasyui.com <fantasyui.com@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fantasyui-com/hyperworld-readline/issues"
